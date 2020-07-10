@@ -1,5 +1,7 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
+import "@mdi/font/css/materialdesignicons.css";
+import "typeface-source-sans-pro";
 
 Vue.use(Vuetify);
 

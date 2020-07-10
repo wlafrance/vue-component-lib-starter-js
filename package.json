@@ -15,15 +15,16 @@
     "dist/*.{js,css}"
   ],
   "dependencies": {
-    "@mdi/font": "^3.6.95",
     "@vue/composition-api": "^1.0.0-beta.3",
     "lodash": "^4.17.15",
     "roboto-fontface": "*",
+    "typeface-source-sans-pro": "^1.1.5",
     "vue": "^2.6.11",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
+    "@mdi/font": "^3.9.97",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/babel-preset-app": "^4.4.6",
