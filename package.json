@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "vue-cli-service build --report --target lib --name my-lib ./src/index.js",
+    "build": "vue-cli-service build --report --target lib --name my-lib ./src/index.ts",
     "lint": "vue-cli-service lint",
     "docs:build": "vuepress build docs",
     "docs:dev": "vuepress dev docs"
@@ -36,6 +36,7 @@
     "sass": "^1.26.10",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
+    "vue-cli-plugin-vuetify": "~2.0.6",
     "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.5.2"
   },
