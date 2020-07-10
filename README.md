@@ -129,7 +129,7 @@ If your app is not using a bundler, the following is the example of how to use t
   <body>
     <div id="app">
       <p>Component A: <component-a/></p>
-      <p>Component B: <component-b @click="onClick"/></p>
+      <p>Component B: <component-b @click.native="onClick"/></p>
     </div>
   </body>
 
@@ -137,6 +137,7 @@ If your app is not using a bundler, the following is the example of how to use t
   <script src="https://unpkg.com/moment"></script>
   <script src="dist/my-lib.umd.js"></script>
   <script>
+    alert('Hello');
       console.log(window['my-lib'])
       var app = new Vue({
         el: '#app',
