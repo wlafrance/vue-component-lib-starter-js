@@ -5,12 +5,17 @@ import App from "./App.vue";
 //import vuetify from "./plugins/vuetify";
 import VueCompositionApi from "@vue/composition-api";
 import * as moment from "moment";
+import vuetify from './plugins/vuetify';
+import 'roboto-fontface/css/roboto/roboto-fontface.css'
+import '@mdi/font/css/materialdesignicons.css'
 
 Vue.config.productionTip = false;
 
 Vue.use(VueCompositionApi,moment);
 
 new Vue({
+  vuetify,
+
   //router,
   //store,
   //vuetify,
